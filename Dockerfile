@@ -2,10 +2,8 @@
 FROM nginx:stable
 
 #define working directory
-WORKDIR /user/share/nginx/html/app
-COPY . /usr/share/nginx/html/app 
-
-
+WORKDIR /usr/share/nginx/html/app
+COPY . .
 
 
 
